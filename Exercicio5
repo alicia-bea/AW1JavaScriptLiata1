@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+    </head>
+        <body>
+            <div class="fundo">
+            <h1>Primeiros passos JavaScript</h1>
+            <script>
+
+    var n1 = prompt("Digite um valor:");
+    n1 = parseInt(n1);
+    
+    if(n1 % 2 == 0)
+    {
+    alert("O Valor é Par");
+    }
+    else 
+    {
+    alert("O Valor é Impar");
+    }
+   
+            
+</script>
+        
+    </div>
+</body>
+</html>
