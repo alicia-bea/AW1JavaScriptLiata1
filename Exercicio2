@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+        
+
+    </head>
+        <body>
+            <h1>Primeiros passos JavaScript</h1>
+            <script>
+
+    var A = prompt("Valor A:");
+    A = parseFloat(A);
+
+    var B = prompt("Valor B:");
+    B = parseFloat(B);
+    
+    if (A < B) {
+    console.log(A, B);
+    alert(A && B);
+    } 
+    else 
+    {
+    console.log(B, A);
+    alert(B && A);
+}
+
+
+
+
+
+
+
+
+            
+</script>
+        
+    </div>
+</body>
+</html>
