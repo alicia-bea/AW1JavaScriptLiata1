@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+        <style>
+
+.fundo{
+background-color:aquamarine;
+}
+
+body{ 
+color: rgb(242, 160, 160);
+}
+
+        </style>
+
+    </head>
+        <body class="fundo">
+            <div>
+            <h1>Primeiros passos JavaScript</h1>
+            <script>
+
+    var n1 = prompt("Valor 1:");
+    n1 = parseInt(n1);
+    
+    if(n1>0)
+    {
+    alert("Valor positivo");
+    }
+    else if (n1<0)
+    {
+    alert("Valor negativo");
+    }
+    else (n1 == 0)
+    {
+    alert("Igual a zero");
+    }
+            
+</script>
+        
+    </div>
+</body>
+</html>
