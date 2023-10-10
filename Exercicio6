@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+    </head>
+        <body>
+            <div class="fundo">
+            <h1>Primeiros passos JavaScript</h1>
+            <script>
+
+    var raio = prompt("Qual o raio da ciscunferência:");
+    raio = parseFloat(raio);
+
+    var comprimento = 2 * Math.PI * raio;
+    var area = Math.PI * raio * raio;
+
+    document.write("Comprimento da circunferencia  = ", comprimento, "<br>");
+    document.write("Area da circunferencia = ", area);
+
+   
+            
+</script>
+        
+    </div>
+</body>
+</html>
