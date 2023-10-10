@@ -18,23 +18,14 @@
     B = parseFloat(B);
     
     if (A < B) {
-    console.log(A, B);
-    alert(A && B);
-    } 
-    else 
-    {
-    console.log(B, A);
-    alert(B && A);
-}
+        document.write(A + " " + B);
+        } 
+        else
+        {
+        document.write(B + " " + A);
+        }
 
 
-
-
-
-
-
-
-            
 </script>
         
     </div>
